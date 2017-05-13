@@ -29,6 +29,13 @@ body {
   width: 100%;
 }
 
+.hr-rule {
+    border-bottom: 1px solid black;
+}
+
+.border-top10 {
+  margin-top: 10px;
+}
 .footer {
   text-align: center;
   margin: 20px;
