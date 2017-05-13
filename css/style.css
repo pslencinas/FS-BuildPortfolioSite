@@ -1,25 +1,23 @@
-body{
-    font-family: 'Lato', sans-serif;
-    color: #2d3c49;
-    font-weight: 300;
-
+body {
+  font-family: "Lato", sans-serif;
+  color: #2d3c49;
+  font-weight: 300;
 }
 
 .text-muted {
-    color: #7D97AD;
+  color: #7d97ad;
 }
 
 .text-thin {
-    font-weight: 100;
+  font-weight: 100;
 }
 
 .title-super {
-    font-size: 60px;
+  font-size: 60px;
 }
 
 .logo {
-    margin-top: 20px;
-    
+  margin-top: 20px;
 }
 
 .container {
@@ -35,23 +33,27 @@ body{
   text-align: center;
   margin: 20px;
 }
-@media screen and (max-width: 400px) {
-   .title-super{
-        font-size: 18px;
-   }
-   .title-sub{
-        font-size: 12px;
-   }
-   .text-muted{
-      font-size: 24px;
-   }
+
+@media screen and (max-width: 480px) {
+  .title-super {
+    font-size: 20px;
+  }
+
+  .title-sub {
+    font-size: 16px;
+  }
+
+  .text-muted {
+    font-size: 20px;
+  }
 }
 
-@media screen and (min-width: 401px) and (max-width: 990px) {
-   .title-super{
-        font-size: 26px;
-   }
-   .title-sub{
-        font-size: 20px;
-   }
-}
+@media screen and (min-width: 481px) and (max-width: 980px) {
+  .title-super {
+    font-size: 28px;
+  }
+
+  .title-sub {
+    font-size: 20px;
+  }
+}   
